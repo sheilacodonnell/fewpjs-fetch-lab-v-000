@@ -2,8 +2,8 @@ function fetchBooks() {
 fetch('http://api.open-notify.org/astros.json')
 .then(function(response) {
   return response.json();
-}).then(function(renderBooks(json)
-)}
+}).then(function(renderBooks(json));
+}
 
 function renderBooks(json) {
   const main = document.querySelector('main')
